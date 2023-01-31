@@ -1,5 +1,8 @@
 on: push
 name: Deploy website on push
+const ftp = require("basic-ftp")
+
+client.prepareTransfer = ftp.enterPassiveModeIPv4
 jobs:
   web-deploy:
     name: Deploy
