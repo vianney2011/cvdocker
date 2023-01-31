@@ -12,5 +12,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: testingtest2011
-        password: JeJbSwyxH!!$X^4B#qBF
+        password: vianneytest
         server-dir : public_html/
